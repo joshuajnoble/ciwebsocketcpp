@@ -1,0 +1,197 @@
+TwscppClient
+v5
+r1
+cCheck dependencies
+cProcessInfoPlistFile /Users/joshua.noble/code/cinder_0.8.4/blocks/websocketcpp/example/wscppClient/xcode/./build/Debug/wscppClient.app/Contents/Info.plist Info.plist
+cCpResource CinderApp.icns ./build/Debug/wscppClient.app/Contents/Resources/CinderApp.icns
+cProcessPCH++ /var/folders/kg/66v_t1ps7ms7hn4llkd46n2m9wrvdb/C/com.apple.Xcode.332164523/SharedPrecompiledHeaders/wscppClient_Prefix-fkugwlsadfuhmofxwgzgupotudjw/wscppClient_Prefix.pch.pth wscppClient_Prefix.pch normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC ./build/wscppClient.build/Debug/wscppClient.build/Objects-normal/i386/wscppClientApp.o /Users/joshua.noble/code/cinder_0.8.4/blocks/websocketcpp/example/wscppClient/xcode/../src/wscppClientApp.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cLd /Users/joshua.noble/code/cinder_0.8.4/blocks/websocketcpp/example/wscppClient/xcode/./build/Debug/wscppClient.app/Contents/MacOS/wscppClient normal i386
+cTouch /Users/joshua.noble/code/cinder_0.8.4/blocks/websocketcpp/example/wscppClient/xcode/./build/Debug/wscppClient.app
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.7.sdk
+c000000004F90F72900000000000000CC
+t1334900521
+s204
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.7.sdk/System/Library/Frameworks/Accelerate.framework/Accelerate
+c00000000506A1BA50000000000002400
+t1349131173
+s9216
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.7.sdk/System/Library/Frameworks/AudioToolbox.framework/AudioToolbox
+c00000000506A1BA50000000000023FF4
+t1349131173
+s147444
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.7.sdk/System/Library/Frameworks/AudioUnit.framework/AudioUnit
+c00000000506A1BA500000000000061F4
+t1349131173
+s25076
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.7.sdk/System/Library/Frameworks/Cocoa.framework/Headers/Cocoa.h
+c00000000506A1BA500000000000001E5
+t1349131173
+s485
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.7.sdk/System/Library/Frameworks/CoreAudio.framework/CoreAudio
+c00000000506A1BA5000000000000E8A8
+t1349131173
+s59560
+
+N/System/Library/Frameworks/Carbon.framework/Carbon
+c000000004E6A4BF60000000000006530
+t1315589110
+s25904
+
+N/System/Library/Frameworks/Cocoa.framework/Cocoa
+c000000004E6A4BF60000000000006560
+t1315589110
+s25952
+
+N/System/Library/Frameworks/CoreVideo.framework/CoreVideo
+c000000005069DA1B000000000007CED0
+t1349114395
+s511696
+
+N/System/Library/Frameworks/OpenGL.framework/OpenGL
+c000000005069DA3B000000000002D360
+t1349114427
+s185184
+
+N/System/Library/Frameworks/QTKit.framework/QTKit
+c000000005069DA4600000000004B9FB0
+t1349114438
+s4956080
+
+N/System/Library/Frameworks/QuickTime.framework/QuickTime
+c000000005069DA46000000000032B7E0
+t1349114438
+s3323872
+
+N/Users/joshua.noble/code/cinder_0.8.4/blocks/websocketcpp/example/wscppClient/xcode/../src/wscppClientApp.cpp
+c0000000050D0F083000000000000021B
+t1355870339
+s539
+
+N/Users/joshua.noble/code/cinder_0.8.4/blocks/websocketcpp/example/wscppClient/xcode/./build/Debug/wscppClient.app
+t2
+s0
+
+N/Users/joshua.noble/code/cinder_0.8.4/blocks/websocketcpp/example/wscppClient/xcode/./build/Debug/wscppClient.app/Contents/Info.plist
+t2
+s0
+
+N/Users/joshua.noble/code/cinder_0.8.4/blocks/websocketcpp/example/wscppClient/xcode/./build/Debug/wscppClient.app/Contents/MacOS/wscppClient
+t2
+s0
+
+N/Users/joshua.noble/code/cinder_0.8.4/blocks/websocketcpp/example/wscppClient/xcode/./build/Debug/wscppClient.app/Contents/PkgInfo
+t2
+s0
+
+N/Users/joshua.noble/code/cinder_0.8.4/blocks/websocketcpp/example/wscppClient/xcode/./build/Debug/wscppClient.app/Contents/Resources/CinderApp.icns
+t2
+s0
+
+N/Users/joshua.noble/code/cinder_0.8.4/blocks/websocketcpp/example/wscppClient/xcode/./build/wscppClient.build/Debug/wscppClient.build/Objects-normal/i386/wscppClient.LinkFileList
+c0000000050D0F0A500000000000000AB
+t1355870373
+s171
+
+N/Users/joshua.noble/code/cinder_0.8.4/blocks/websocketcpp/example/wscppClient/xcode/./build/wscppClient.build/Debug/wscppClient.build/Objects-normal/i386/wscppClientApp.o
+t2
+s0
+
+N/Users/joshua.noble/code/cinder_0.8.4/blocks/websocketcpp/example/wscppClient/xcode/CinderApp.icns
+c0000000050D0F083000000000001BEB5
+t1355870339
+s114357
+
+N/Users/joshua.noble/code/cinder_0.8.4/blocks/websocketcpp/example/wscppClient/xcode/wscppClient_Prefix.pch
+c0000000050D0F0830000000000000093
+t1355870339
+s147
+i<Cocoa/Cocoa.h>
+
+N/var/folders/kg/66v_t1ps7ms7hn4llkd46n2m9wrvdb/C/com.apple.Xcode.332164523/SharedPrecompiledHeaders/wscppClient_Prefix-fkugwlsadfuhmofxwgzgupotudjw/wscppClient_Prefix.pch.pth
+t2
+s0
+
+NInfo.plist
+c0000000050D0F0830000000000000351
+t1355870339
+s849
+
+CBuild AST from /Users/joshua.noble/code/cinder_0.8.4/blocks/websocketcpp/example/wscppClient/xcode/../src/wscppClientApp.cpp
+r0
+
+CCheck dependencies
+r0
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies5116ea242881b641^d907d9252881b641^---0#1#0#--18"Check dependencies36"1C0D503A-5394-499C-8829-8222C07CA8F3-
+
+CCompileC ./build/wscppClient.build/Debug/wscppClient.build/Objects-normal/i386/wscppClientApp.o /Users/joshua.noble/code/cinder_0.8.4/blocks/websocketcpp/example/wscppClient/xcode/../src/wscppClientApp.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+s377563174.318723
+e377563181.241724
+r1
+xCompileC
+x./build/wscppClient.build/Debug/wscppClient.build/Objects-normal/i386/wscppClientApp.o
+x/Users/joshua.noble/code/cinder_0.8.4/blocks/websocketcpp/example/wscppClient/xcode/../src/wscppClientApp.cpp
+xnormal
+xi386
+xc++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection117"Compile /Users/joshua.noble/code/cinder_0.8.4/blocks/websocketcpp/example/wscppClient/xcode/../src/wscppClientApp.cppafb351262881b641^f7e43d2d2881b641^---0#0#0#-19%DVTDocumentLocation2@125"file://localhost/Users/joshua.noble/code/cinder_0.8.4/blocks/websocketcpp/example/wscppClient/xcode/../src/wscppClientApp.cpp0000000000000000^3287"CompileC ./build/wscppClient.build/Debug/wscppClient.build/Objects-normal/i386/wscppClientApp.o ../src/wscppClientApp.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/joshua.noble/code/cinder_0.8.4/blocks/websocketcpp/example/wscppClient/xcode    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch i386 -fmessage-length=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.7.sdk -fasm-blocks -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.7 -g -Wno-sign-conversion -iquote /Users/joshua.noble/code/cinder_0.8.4/blocks/websocketcpp/example/wscppClient/xcode/./build/wscppClient.build/Debug/wscppClient.build/wscppClient-generated-files.hmap -I/Users/joshua.noble/code/cinder_0.8.4/blocks/websocketcpp/example/wscppClient/xcode/./build/wscppClient.build/Debug/wscppClient.build/wscppClient-own-target-headers.hmap -I/Users/joshua.noble/code/cinder_0.8.4/blocks/websocketcpp/example/wscppClient/xcode/./build/wscppClient.build/Debug/wscppClient.build/wscppClient-all-target-headers.hmap -iquote /Users/joshua.noble/code/cinder_0.8.4/blocks/websocketcpp/example/wscppClient/xcode/./build/wscppClient.build/Debug/wscppClient.build/wscppClient-project-headers.hmap -iquote../../../../../include -iquote../include -I/Users/joshua.noble/code/cinder_0.8.4/blocks/websocketcpp/example/wscppClient/xcode/build/Debug/include -I../../../../../boost -I/Users/joshua.noble/code/cinder_0.8.4/blocks/websocketcpp/example/wscppClient/xcode/./build/wscppClient.build/Debug/wscppClient.build/DerivedSources/i386 -I/Users/joshua.noble/code/cinder_0.8.4/blocks/websocketcpp/example/wscppClient/xcode/./build/wscppClient.build/Debug/wscppClient.build/DerivedSources -F/Users/joshua.noble/code/cinder_0.8.4/blocks/websocketcpp/example/wscppClient/xcode/build/Debug -include /var/folders/kg/66v_t1ps7ms7hn4llkd46n2m9wrvdb/C/com.apple.Xcode.332164523/SharedPrecompiledHeaders/wscppClient_Prefix-fkugwlsadfuhmofxwgzgupotudjw/wscppClient_Prefix.pch -MMD -MT dependencies -MF /Users/joshua.noble/code/cinder_0.8.4/blocks/websocketcpp/example/wscppClient/xcode/./build/wscppClient.build/Debug/wscppClient.build/Objects-normal/i386/wscppClientApp.d --serialize-diagnostics /Users/joshua.noble/code/cinder_0.8.4/blocks/websocketcpp/example/wscppClient/xcode/./build/wscppClient.build/Debug/wscppClient.build/Objects-normal/i386/wscppClientApp.dia -c /Users/joshua.noble/code/cinder_0.8.4/blocks/websocketcpp/example/wscppClient/xcode/../src/wscppClientApp.cpp -o /Users/joshua.noble/code/cinder_0.8.4/blocks/websocketcpp/example/wscppClient/xcode/./build/wscppClient.build/Debug/wscppClient.build/Objects-normal/i386/wscppClientApp.o36"A0647ACA-258E-4B98-A864-5270A2899D39-
+
+CCpResource CinderApp.icns ./build/Debug/wscppClient.app/Contents/Resources/CinderApp.icns
+s377563173.908830
+e377563173.911317
+r1
+xCpResource
+xCinderApp.icns
+x./build/Debug/wscppClient.app/Contents/Resources/CinderApp.icns
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection68"Copy ./build/Debug/wscppClient.app/Contents/Resources/CinderApp.icns8db8e8252881b641^834de9252881b641^---0#0#0#-19%DVTDocumentLocation2@163"file://localhost/Users/joshua.noble/code/cinder_0.8.4/blocks/websocketcpp/example/wscppClient/xcode/./build/Debug/wscppClient.app/Contents/Resources/CinderApp.icns000000000080d041^525"CpResource CinderApp.icns ./build/Debug/wscppClient.app/Contents/Resources/CinderApp.icns    cd /Users/joshua.noble/code/cinder_0.8.4/blocks/websocketcpp/example/wscppClient/xcode    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/joshua.noble/code/cinder_0.8.4/blocks/websocketcpp/example/wscppClient/xcode/CinderApp.icns /Users/joshua.noble/code/cinder_0.8.4/blocks/websocketcpp/example/wscppClient/xcode/./build/Debug/wscppClient.app/Contents/Resources36"F6AC7646-5EB2-4DE1-A90E-E0B2A66AB3EB-
+
+CLd /Users/joshua.noble/code/cinder_0.8.4/blocks/websocketcpp/example/wscppClient/xcode/./build/Debug/wscppClient.app/Contents/MacOS/wscppClient normal i386
+s377563181.249290
+e377563184.586786
+r1
+xLd
+x/Users/joshua.noble/code/cinder_0.8.4/blocks/websocketcpp/example/wscppClient/xcode/./build/Debug/wscppClient.app/Contents/MacOS/wscppClient
+xnormal
+xi386
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection145"Link /Users/joshua.noble/code/cinder_0.8.4/blocks/websocketcpp/example/wscppClient/xcode/./build/Debug/wscppClient.app/Contents/MacOS/wscppClient29e73f2d2881b641^b93896302881b641^---0#0#0#--1219"Ld ./build/Debug/wscppClient.app/Contents/MacOS/wscppClient normal i386    cd /Users/joshua.noble/code/cinder_0.8.4/blocks/websocketcpp/example/wscppClient/xcode    setenv MACOSX_DEPLOYMENT_TARGET 10.7    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++ -arch i386 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.7.sdk -L/Users/joshua.noble/code/cinder_0.8.4/blocks/websocketcpp/example/wscppClient/xcode/build/Debug -F/Users/joshua.noble/code/cinder_0.8.4/blocks/websocketcpp/example/wscppClient/xcode/build/Debug -filelist /Users/joshua.noble/code/cinder_0.8.4/blocks/websocketcpp/example/wscppClient/xcode/./build/wscppClient.build/Debug/wscppClient.build/Objects-normal/i386/wscppClient.LinkFileList -mmacosx-version-min=10.7 ../../../../..//lib/libcinder_d.a -lcurl -framework Cocoa -framework OpenGL -framework Carbon -framework CoreVideo -framework QTKit -framework QuickTime -framework Accelerate -framework AudioToolbox -framework AudioUnit -framework CoreAudio -o /Users/joshua.noble/code/cinder_0.8.4/blocks/websocketcpp/example/wscppClient/xcode/./build/Debug/wscppClient.app/Contents/MacOS/wscppClient36"9F22C091-4BFD-4C69-BFD7-D2F21AC621AF-
+
+CProcessInfoPlistFile /Users/joshua.noble/code/cinder_0.8.4/blocks/websocketcpp/example/wscppClient/xcode/./build/Debug/wscppClient.app/Contents/Info.plist Info.plist
+s377563173.862258
+e377563173.899844
+r1
+xProcessInfoPlistFile
+x/Users/joshua.noble/code/cinder_0.8.4/blocks/websocketcpp/example/wscppClient/xcode/./build/Debug/wscppClient.app/Contents/Info.plist
+xInfo.plist
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Process Info.plist0937dd252881b641^f65ce6252881b641^---0#0#0#-19%DVTDocumentLocation2@110"file://localhost/Users/joshua.noble/code/cinder_0.8.4/blocks/websocketcpp/example/wscppClient/xcode/Info.plist0000000000000000^531"ProcessInfoPlistFile ./build/Debug/wscppClient.app/Contents/Info.plist Info.plist    cd /Users/joshua.noble/code/cinder_0.8.4/blocks/websocketcpp/example/wscppClient/xcode    builtin-infoPlistUtility Info.plist -genpkginfo /Users/joshua.noble/code/cinder_0.8.4/blocks/websocketcpp/example/wscppClient/xcode/./build/Debug/wscppClient.app/Contents/PkgInfo -expandbuildsettings -platform macosx -o /Users/joshua.noble/code/cinder_0.8.4/blocks/websocketcpp/example/wscppClient/xcode/./build/Debug/wscppClient.app/Contents/Info.plist36"5F929EB3-4F78-4487-8E1B-3425B63A8BCE-
+
+CProcessPCH++ /Users/joshua.noble/Library/Developer/Xcode/DerivedData/wscppClient-frhmielgtrsylgdoxwcudnpsuyqx/Index/PrecompiledHeaders/wscppClient_Prefix-eecncjpoueqpskajfdwvdojaxgiq_ast/wscppClient_Prefix.pch.pth wscppClient_Prefix.pch normal i386 c++ com.apple.compilers.llvm.clang.1_0.astbuilder
+r0
+
+CProcessPCH++ /var/folders/kg/66v_t1ps7ms7hn4llkd46n2m9wrvdb/C/com.apple.Xcode.332164523/SharedPrecompiledHeaders/wscppClient_Prefix-fkugwlsadfuhmofxwgzgupotudjw/wscppClient_Prefix.pch.pth wscppClient_Prefix.pch normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+s377563173.919188
+e377563174.311889
+r1
+xProcessPCH++
+x/var/folders/kg/66v_t1ps7ms7hn4llkd46n2m9wrvdb/C/com.apple.Xcode.332164523/SharedPrecompiledHeaders/wscppClient_Prefix-fkugwlsadfuhmofxwgzgupotudjw/wscppClient_Prefix.pch.pth
+xwscppClient_Prefix.pch
+xnormal
+xi386
+xc++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection33"Precompile wscppClient_Prefix.pch5569eb252881b641^aed84f262881b641^---0#0#0#-19%DVTDocumentLocation2@122"file://localhost/Users/joshua.noble/code/cinder_0.8.4/blocks/websocketcpp/example/wscppClient/xcode/wscppClient_Prefix.pch0000000000000000^3208"ProcessPCH++ /var/folders/kg/66v_t1ps7ms7hn4llkd46n2m9wrvdb/C/com.apple.Xcode.332164523/SharedPrecompiledHeaders/wscppClient_Prefix-fkugwlsadfuhmofxwgzgupotudjw/wscppClient_Prefix.pch.pth wscppClient_Prefix.pch normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/joshua.noble/code/cinder_0.8.4/blocks/websocketcpp/example/wscppClient/xcode    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++-header -arch i386 -fmessage-length=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.7.sdk -fasm-blocks -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.7 -g -Wno-sign-conversion -iquote /Users/joshua.noble/code/cinder_0.8.4/blocks/websocketcpp/example/wscppClient/xcode/./build/wscppClient.build/Debug/wscppClient.build/wscppClient-generated-files.hmap -I/Users/joshua.noble/code/cinder_0.8.4/blocks/websocketcpp/example/wscppClient/xcode/./build/wscppClient.build/Debug/wscppClient.build/wscppClient-own-target-headers.hmap -I/Users/joshua.noble/code/cinder_0.8.4/blocks/websocketcpp/example/wscppClient/xcode/./build/wscppClient.build/Debug/wscppClient.build/wscppClient-all-target-headers.hmap -iquote /Users/joshua.noble/code/cinder_0.8.4/blocks/websocketcpp/example/wscppClient/xcode/./build/wscppClient.build/Debug/wscppClient.build/wscppClient-project-headers.hmap -iquote../../../../../include -iquote../include -I/Users/joshua.noble/code/cinder_0.8.4/blocks/websocketcpp/example/wscppClient/xcode/build/Debug/include -I../../../../../boost -I/Users/joshua.noble/code/cinder_0.8.4/blocks/websocketcpp/example/wscppClient/xcode/./build/wscppClient.build/Debug/wscppClient.build/DerivedSources/i386 -I/Users/joshua.noble/code/cinder_0.8.4/blocks/websocketcpp/example/wscppClient/xcode/./build/wscppClient.build/Debug/wscppClient.build/DerivedSources -F/Users/joshua.noble/code/cinder_0.8.4/blocks/websocketcpp/example/wscppClient/xcode/build/Debug --serialize-diagnostics /var/folders/kg/66v_t1ps7ms7hn4llkd46n2m9wrvdb/C/com.apple.Xcode.332164523/SharedPrecompiledHeaders/wscppClient_Prefix-fkugwlsadfuhmofxwgzgupotudjw/wscppClient_Prefix.pch.dia -c /Users/joshua.noble/code/cinder_0.8.4/blocks/websocketcpp/example/wscppClient/xcode/wscppClient_Prefix.pch -o /var/folders/kg/66v_t1ps7ms7hn4llkd46n2m9wrvdb/C/com.apple.Xcode.332164523/SharedPrecompiledHeaders/wscppClient_Prefix-fkugwlsadfuhmofxwgzgupotudjw/wscppClient_Prefix.pch.pth -MMD -MT dependencies -MF /var/folders/kg/66v_t1ps7ms7hn4llkd46n2m9wrvdb/C/com.apple.Xcode.332164523/SharedPrecompiledHeaders/wscppClient_Prefix-fkugwlsadfuhmofxwgzgupotudjw/wscppClient_Prefix.pch.d36"DD728E93-3031-431C-B85E-B92A5C637C03-
+
+CTouch /Users/joshua.noble/code/cinder_0.8.4/blocks/websocketcpp/example/wscppClient/xcode/./build/Debug/wscppClient.app
+s377563184.595631
+e377563184.793330
+r1
+xTouch
+x/Users/joshua.noble/code/cinder_0.8.4/blocks/websocketcpp/example/wscppClient/xcode/./build/Debug/wscppClient.app
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection119"Touch /Users/joshua.noble/code/cinder_0.8.4/blocks/websocketcpp/example/wscppClient/xcode/./build/Debug/wscppClient.app3b8998302881b641^fc18cb302881b641^---0#0#0#--263"Touch ./build/Debug/wscppClient.app    cd /Users/joshua.noble/code/cinder_0.8.4/blocks/websocketcpp/example/wscppClient/xcode    /usr/bin/touch -c /Users/joshua.noble/code/cinder_0.8.4/blocks/websocketcpp/example/wscppClient/xcode/./build/Debug/wscppClient.app36"58DDA922-6EFF-4D67-8A6B-504E906FC561-
+

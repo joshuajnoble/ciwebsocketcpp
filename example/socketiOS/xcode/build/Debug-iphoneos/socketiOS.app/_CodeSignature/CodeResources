@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>files</key>
+	<dict>
+		<key>Icon.png</key>
+		<data>
+		rD3psyo54u0LftieNXYUAg+4iww=
+		</data>
+		<key>PkgInfo</key>
+		<data>
+		n57qDP4tZfLD1rCS43W0B4LQjzE=
+		</data>
+		<key>client.pem</key>
+		<data>
+		NbjMrqVdi+wNqtediagDoJOs1p0=
+		</data>
+		<key>dh512.pem</key>
+		<data>
+		II0HW1gkswY7h/CROfft7wx54UM=
+		</data>
+		<key>embedded.mobileprovision</key>
+		<data>
+		A4IGZpnzZIu2DMB55Xnb/EEqxAA=
+		</data>
+		<key>server.cer</key>
+		<data>
+		0T0r0/nqAMs88h3jcczWTMBcxKk=
+		</data>
+		<key>server.pem</key>
+		<data>
+		w0xTqD0nKEDTLGeI8ltL0AI35Ms=
+		</data>
+	</dict>
+	<key>rules</key>
+	<dict>
+		<key>.*</key>
+		<true/>
+		<key>Info.plist</key>
+		<dict>
+			<key>omit</key>
+			<true/>
+			<key>weight</key>
+			<real>10</real>
+		</dict>
+		<key>ResourceRules.plist</key>
+		<dict>
+			<key>omit</key>
+			<true/>
+			<key>weight</key>
+			<real>100</real>
+		</dict>
+	</dict>
+</dict>
+</plist>

@@ -1,0 +1,396 @@
+TsocketiOS
+v5
+r1
+cCheck dependencies
+cCpResource /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.0.sdk/ResourceRules.plist ./build/Debug-iphoneos/socketiOS.app/ResourceRules.plist
+cProcessInfoPlistFile /Users/joshua.noble/code/cinder_0.8.4/blocks/websocketcpp/example/socketiOS/xcode/./build/Debug-iphoneos/socketiOS.app/Info.plist socketiOS-Info.plist
+cCopyPNGFile /Users/joshua.noble/code/cinder_0.8.4/blocks/websocketcpp/example/socketiOS/xcode/./build/Debug-iphoneos/socketiOS.app/Icon.png Icon.png
+cCpResource ../assets ./build/Debug-iphoneos/socketiOS.app/assets
+cCpResource ../../../include/ssl/client.pem ./build/Debug-iphoneos/socketiOS.app/client.pem
+cCpResource ../../../include/ssl/dh512.pem ./build/Debug-iphoneos/socketiOS.app/dh512.pem
+cCpResource ../../../include/ssl/server.cer ./build/Debug-iphoneos/socketiOS.app/server.cer
+cCpResource ../../../include/ssl/server.pem ./build/Debug-iphoneos/socketiOS.app/server.pem
+cProcessPCH++ /var/folders/kg/66v_t1ps7ms7hn4llkd46n2m9wrvdb/C/com.apple.Xcode.332164523/SharedPrecompiledHeaders/socketiOS_Prefix-cvxygisfmsrrfhgbwaaflslkkadg/socketiOS_Prefix.pch.pth socketiOS_Prefix.pch normal armv7 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC ./build/socketiOS.build/Debug-iphoneos/socketiOS.build/Objects-normal/armv7/socketiOSApp.o /Users/joshua.noble/code/cinder_0.8.4/blocks/websocketcpp/example/socketiOS/xcode/../src/socketiOSApp.cpp normal armv7 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC ./build/socketiOS.build/Debug-iphoneos/socketiOS.build/Objects-normal/armv7/chat_client_handler.o /Users/joshua.noble/code/cinder_0.8.4/blocks/websocketcpp/example/socketiOS/xcode/../src/chat_client_handler.cpp normal armv7 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cLd /Users/joshua.noble/code/cinder_0.8.4/blocks/websocketcpp/example/socketiOS/xcode/./build/Debug-iphoneos/socketiOS.app/socketiOS normal armv7
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.0.sdk
+c00000000503C83D40000000000000132
+t1346143188
+s306
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.0.sdk/Entitlements.plist
+c00000000506A1B680000000000000094
+t1349131112
+s148
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.0.sdk/ResourceRules.plist
+c00000000506A1B680000000000000096
+t1349131112
+s150
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.0.sdk/System/Library/Frameworks/AVFoundation.framework/AVFoundation
+c00000000506A1B6A000000000036C800
+t1349131114
+s3590144
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.0.sdk/System/Library/Frameworks/AudioToolbox.framework/AudioToolbox
+c00000000506A1B6A00000000006ABBE0
+t1349131114
+s6994912
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.0.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+c00000000506A1B6A0000000000322740
+t1349131114
+s3286848
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.0.sdk/System/Library/Frameworks/CoreMedia.framework/CoreMedia
+c00000000506A1B6B00000000001692A0
+t1349131115
+s1479328
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.0.sdk/System/Library/Frameworks/CoreText.framework/CoreText
+c00000000506A1B6B000000000014AC30
+t1349131115
+s1354800
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.0.sdk/System/Library/Frameworks/CoreVideo.framework/CoreVideo
+c00000000506A1B6B0000000000041310
+t1349131115
+s267024
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.0.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c00000000506A1B6B0000000000629C80
+t1349131115
+s6462592
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.0.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
+c00000000506A1B6B00000000000015F7
+t1349131115
+s5623
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.0.sdk/System/Library/Frameworks/OpenGLES.framework/OpenGLES
+c00000000506A1B6D0000000000024190
+t1349131117
+s147856
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.0.sdk/System/Library/Frameworks/QuartzCore.framework/QuartzCore
+c00000000506A1B6D0000000000359720
+t1349131117
+s3512096
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.0.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h
+c00000000506A1B6D0000000000000E8D
+t1349131117
+s3725
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.0.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+c00000000506A1B6E00000000011BA850
+t1349131118
+s18589776
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.0.sdk/usr/include/Availability.h
+c00000000506A1B760000000000001B54
+t1349131126
+s6996
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.0.sdk/usr/lib/libz.dylib
+c00000000506A1B780000000000022520
+t1349131128
+s140576
+
+N/Users/joshua.noble/Library/MobileDevice/Provisioning Profiles/40D917F2-C1BB-43B2-9694-D16D25DC1D2B.mobileprovision
+c000000004FFF1DA30000000000001D8C
+t1342119331
+s7564
+
+N/Users/joshua.noble/code/cinder_0.8.4/blocks/websocketcpp/example/socketiOS/xcode/../../../include/ssl/client.pem
+c0000000050C738F00000000000000D97
+t1355233520
+s3479
+
+N/Users/joshua.noble/code/cinder_0.8.4/blocks/websocketcpp/example/socketiOS/xcode/../../../include/ssl/dh512.pem
+c0000000050C738F000000000000001D2
+t1355233520
+s466
+
+N/Users/joshua.noble/code/cinder_0.8.4/blocks/websocketcpp/example/socketiOS/xcode/../../../include/ssl/server.cer
+c0000000050C738F00000000000000950
+t1355233520
+s2384
+
+N/Users/joshua.noble/code/cinder_0.8.4/blocks/websocketcpp/example/socketiOS/xcode/../../../include/ssl/server.pem
+c0000000050C738F00000000000000D97
+t1355233520
+s3479
+
+N/Users/joshua.noble/code/cinder_0.8.4/blocks/websocketcpp/example/socketiOS/xcode/../../../lib/iOS/libwebsocketpp.a
+c0000000050D0EF0900000000000AF6A0
+t1355869961
+s718496
+
+N/Users/joshua.noble/code/cinder_0.8.4/blocks/websocketcpp/example/socketiOS/xcode/../assets
+c0000000050D28B750000000000000044
+t1355975541
+s68
+
+N/Users/joshua.noble/code/cinder_0.8.4/blocks/websocketcpp/example/socketiOS/xcode/../src/chat_client_handler.cpp
+c0000000050C738F0000000000000148D
+t1355233520
+s5261
+
+N/Users/joshua.noble/code/cinder_0.8.4/blocks/websocketcpp/example/socketiOS/xcode/../src/socketiOSApp.cpp
+c0000000050D28DBB0000000000000986
+t1355976123
+s2438
+
+N/Users/joshua.noble/code/cinder_0.8.4/blocks/websocketcpp/example/socketiOS/xcode/./build/Debug-iphoneos/socketiOS.app
+t2
+s0
+
+N/Users/joshua.noble/code/cinder_0.8.4/blocks/websocketcpp/example/socketiOS/xcode/./build/Debug-iphoneos/socketiOS.app.dSYM
+t2
+s0
+
+N/Users/joshua.noble/code/cinder_0.8.4/blocks/websocketcpp/example/socketiOS/xcode/./build/Debug-iphoneos/socketiOS.app/Icon.png
+t2
+s0
+
+N/Users/joshua.noble/code/cinder_0.8.4/blocks/websocketcpp/example/socketiOS/xcode/./build/Debug-iphoneos/socketiOS.app/Info.plist
+t2
+s0
+
+N/Users/joshua.noble/code/cinder_0.8.4/blocks/websocketcpp/example/socketiOS/xcode/./build/Debug-iphoneos/socketiOS.app/PkgInfo
+t2
+s0
+
+N/Users/joshua.noble/code/cinder_0.8.4/blocks/websocketcpp/example/socketiOS/xcode/./build/Debug-iphoneos/socketiOS.app/ResourceRules.plist
+t2
+s0
+
+N/Users/joshua.noble/code/cinder_0.8.4/blocks/websocketcpp/example/socketiOS/xcode/./build/Debug-iphoneos/socketiOS.app/assets
+t2
+s0
+
+N/Users/joshua.noble/code/cinder_0.8.4/blocks/websocketcpp/example/socketiOS/xcode/./build/Debug-iphoneos/socketiOS.app/client.pem
+t2
+s0
+
+N/Users/joshua.noble/code/cinder_0.8.4/blocks/websocketcpp/example/socketiOS/xcode/./build/Debug-iphoneos/socketiOS.app/dh512.pem
+t2
+s0
+
+N/Users/joshua.noble/code/cinder_0.8.4/blocks/websocketcpp/example/socketiOS/xcode/./build/Debug-iphoneos/socketiOS.app/embedded.mobileprovision
+t2
+s0
+
+N/Users/joshua.noble/code/cinder_0.8.4/blocks/websocketcpp/example/socketiOS/xcode/./build/Debug-iphoneos/socketiOS.app/server.cer
+t2
+s0
+
+N/Users/joshua.noble/code/cinder_0.8.4/blocks/websocketcpp/example/socketiOS/xcode/./build/Debug-iphoneos/socketiOS.app/server.pem
+t2
+s0
+
+N/Users/joshua.noble/code/cinder_0.8.4/blocks/websocketcpp/example/socketiOS/xcode/./build/Debug-iphoneos/socketiOS.app/socketiOS
+t2
+s0
+
+N/Users/joshua.noble/code/cinder_0.8.4/blocks/websocketcpp/example/socketiOS/xcode/./build/socketiOS.build/Debug-iphoneos/socketiOS.build/Objects-normal/armv7/chat_client_handler.o
+t2
+s0
+
+N/Users/joshua.noble/code/cinder_0.8.4/blocks/websocketcpp/example/socketiOS/xcode/./build/socketiOS.build/Debug-iphoneos/socketiOS.build/Objects-normal/armv7/socketiOS.LinkFileList
+c0000000050D290B70000000000000161
+t1355976887
+s353
+
+N/Users/joshua.noble/code/cinder_0.8.4/blocks/websocketcpp/example/socketiOS/xcode/./build/socketiOS.build/Debug-iphoneos/socketiOS.build/Objects-normal/armv7/socketiOSApp.o
+t2
+s0
+
+N/Users/joshua.noble/code/cinder_0.8.4/blocks/websocketcpp/example/socketiOS/xcode/./build/socketiOS.build/Debug-iphoneos/socketiOS.build/socketiOS.xcent
+t2
+s0
+
+N/Users/joshua.noble/code/cinder_0.8.4/blocks/websocketcpp/example/socketiOS/xcode/Icon.png
+c0000000050D28B760000000000003216
+t1355975542
+s12822
+
+N/Users/joshua.noble/code/cinder_0.8.4/blocks/websocketcpp/example/socketiOS/xcode/socketiOS_Prefix.pch
+c0000000050D28B760000000000000142
+t1355975542
+s322
+i<Availability.h>
+i<Foundation/Foundation.h>
+i<UIKit/UIKit.h>
+
+N/var/folders/kg/66v_t1ps7ms7hn4llkd46n2m9wrvdb/C/com.apple.Xcode.332164523/SharedPrecompiledHeaders/socketiOS_Prefix-cvxygisfmsrrfhgbwaaflslkkadg/socketiOS_Prefix.pch.pth
+t2
+s0
+
+NsocketiOS-Info.plist
+c0000000050D28B7500000000000003D7
+t1355975541
+s983
+
+CBuild AST from /Users/joshua.noble/code/cinder_0.8.4/blocks/websocketcpp/example/socketiOS/xcode/../src/chat_client_handler.cpp
+r0
+
+CBuild AST from /Users/joshua.noble/code/cinder_0.8.4/blocks/websocketcpp/example/socketiOS/xcode/../src/socketiOSApp.cpp
+r0
+
+CCheck dependencies
+r0
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependenciesacfdf536c882b641^cc260437c882b641^---0#1#0#--18"Check dependencies36"A0C8EE51-F67A-419F-AF65-A39637384D2B-
+
+CCodeSign /Users/joshua.noble/code/cinder_0.8.4/blocks/websocketcpp/example/socketiOS/xcode/./build/Debug-iphoneos/socketiOS.app
+r0
+
+CCompileC ./build/socketiOS.build/Debug-iphoneos/socketiOS.build/Objects-normal/armv7/chat_client_handler.o /Users/joshua.noble/code/cinder_0.8.4/blocks/websocketcpp/example/socketiOS/xcode/../src/chat_client_handler.cpp normal armv7 c++ com.apple.compilers.llvm.clang.1_0.compiler
+s377669687.448600
+e377669693.104650
+r1
+xCompileC
+x./build/socketiOS.build/Debug-iphoneos/socketiOS.build/Objects-normal/armv7/chat_client_handler.o
+x/Users/joshua.noble/code/cinder_0.8.4/blocks/websocketcpp/example/socketiOS/xcode/../src/chat_client_handler.cpp
+xnormal
+xarmv7
+xc++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection120"Compile /Users/joshua.noble/code/cinder_0.8.4/blocks/websocketcpp/example/socketiOS/xcode/../src/chat_client_handler.cpp1efa7237c882b641^18cd1a3dc882b641^---0#0#0#-19%DVTDocumentLocation2@128"file://localhost/Users/joshua.noble/code/cinder_0.8.4/blocks/websocketcpp/example/socketiOS/xcode/../src/chat_client_handler.cpp0000000000000000^3588"CompileC ./build/socketiOS.build/Debug-iphoneos/socketiOS.build/Objects-normal/armv7/chat_client_handler.o ../src/chat_client_handler.cpp normal armv7 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/joshua.noble/code/cinder_0.8.4/blocks/websocketcpp/example/socketiOS/xcode    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch armv7 -fmessage-length=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -DDEBUG -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.0.sdk -Wdeprecated-declarations -Winvalid-offsetof -g -Wno-sign-conversion -miphoneos-version-min=3.2 -iquote /Users/joshua.noble/code/cinder_0.8.4/blocks/websocketcpp/example/socketiOS/xcode/./build/socketiOS.build/Debug-iphoneos/socketiOS.build/socketiOS-generated-files.hmap -I/Users/joshua.noble/code/cinder_0.8.4/blocks/websocketcpp/example/socketiOS/xcode/./build/socketiOS.build/Debug-iphoneos/socketiOS.build/socketiOS-own-target-headers.hmap -I/Users/joshua.noble/code/cinder_0.8.4/blocks/websocketcpp/example/socketiOS/xcode/./build/socketiOS.build/Debug-iphoneos/socketiOS.build/socketiOS-all-target-headers.hmap -iquote /Users/joshua.noble/code/cinder_0.8.4/blocks/websocketcpp/example/socketiOS/xcode/./build/socketiOS.build/Debug-iphoneos/socketiOS.build/socketiOS-project-headers.hmap -iquote../../../../../include -iquoteinclude -iquote../../../../../blocks/websocketcpp/include -I/Users/joshua.noble/code/cinder_0.8.4/blocks/websocketcpp/example/socketiOS/xcode/build/Debug-iphoneos/include -I../../../../../boost -I/Users/joshua.noble/code/cinder_0.8.4/blocks/websocketcpp/example/socketiOS/xcode/./build/socketiOS.build/Debug-iphoneos/socketiOS.build/DerivedSources/armv7 -I/Users/joshua.noble/code/cinder_0.8.4/blocks/websocketcpp/example/socketiOS/xcode/./build/socketiOS.build/Debug-iphoneos/socketiOS.build/DerivedSources -F/Users/joshua.noble/code/cinder_0.8.4/blocks/websocketcpp/example/socketiOS/xcode/build/Debug-iphoneos -include /var/folders/kg/66v_t1ps7ms7hn4llkd46n2m9wrvdb/C/com.apple.Xcode.332164523/SharedPrecompiledHeaders/socketiOS_Prefix-cvxygisfmsrrfhgbwaaflslkkadg/socketiOS_Prefix.pch -MMD -MT dependencies -MF /Users/joshua.noble/code/cinder_0.8.4/blocks/websocketcpp/example/socketiOS/xcode/./build/socketiOS.build/Debug-iphoneos/socketiOS.build/Objects-normal/armv7/chat_client_handler.d --serialize-diagnostics /Users/joshua.noble/code/cinder_0.8.4/blocks/websocketcpp/example/socketiOS/xcode/./build/socketiOS.build/Debug-iphoneos/socketiOS.build/Objects-normal/armv7/chat_client_handler.dia -c /Users/joshua.noble/code/cinder_0.8.4/blocks/websocketcpp/example/socketiOS/xcode/../src/chat_client_handler.cpp -o /Users/joshua.noble/code/cinder_0.8.4/blocks/websocketcpp/example/socketiOS/xcode/./build/socketiOS.build/Debug-iphoneos/socketiOS.build/Objects-normal/armv7/chat_client_handler.o36"C4F1CF5A-1084-48FE-B28B-D9263E4EC9BD-
+
+CCompileC ./build/socketiOS.build/Debug-iphoneos/socketiOS.build/Objects-normal/armv7/socketiOSApp.o /Users/joshua.noble/code/cinder_0.8.4/blocks/websocketcpp/example/socketiOS/xcode/../src/socketiOSApp.cpp normal armv7 c++ com.apple.compilers.llvm.clang.1_0.compiler
+s377669687.448584
+e377669695.683081
+r1
+xCompileC
+x./build/socketiOS.build/Debug-iphoneos/socketiOS.build/Objects-normal/armv7/socketiOSApp.o
+x/Users/joshua.noble/code/cinder_0.8.4/blocks/websocketcpp/example/socketiOS/xcode/../src/socketiOSApp.cpp
+xnormal
+xarmv7
+xc++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection113"Compile /Users/joshua.noble/code/cinder_0.8.4/blocks/websocketcpp/example/socketiOS/xcode/../src/socketiOSApp.cpp7ff77237c882b641^9ce1ae3fc882b641^---0#0#0#-19%DVTDocumentLocation2@121"file://localhost/Users/joshua.noble/code/cinder_0.8.4/blocks/websocketcpp/example/socketiOS/xcode/../src/socketiOSApp.cpp0000000000000000^3546"CompileC ./build/socketiOS.build/Debug-iphoneos/socketiOS.build/Objects-normal/armv7/socketiOSApp.o ../src/socketiOSApp.cpp normal armv7 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/joshua.noble/code/cinder_0.8.4/blocks/websocketcpp/example/socketiOS/xcode    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch armv7 -fmessage-length=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -DDEBUG -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.0.sdk -Wdeprecated-declarations -Winvalid-offsetof -g -Wno-sign-conversion -miphoneos-version-min=3.2 -iquote /Users/joshua.noble/code/cinder_0.8.4/blocks/websocketcpp/example/socketiOS/xcode/./build/socketiOS.build/Debug-iphoneos/socketiOS.build/socketiOS-generated-files.hmap -I/Users/joshua.noble/code/cinder_0.8.4/blocks/websocketcpp/example/socketiOS/xcode/./build/socketiOS.build/Debug-iphoneos/socketiOS.build/socketiOS-own-target-headers.hmap -I/Users/joshua.noble/code/cinder_0.8.4/blocks/websocketcpp/example/socketiOS/xcode/./build/socketiOS.build/Debug-iphoneos/socketiOS.build/socketiOS-all-target-headers.hmap -iquote /Users/joshua.noble/code/cinder_0.8.4/blocks/websocketcpp/example/socketiOS/xcode/./build/socketiOS.build/Debug-iphoneos/socketiOS.build/socketiOS-project-headers.hmap -iquote../../../../../include -iquoteinclude -iquote../../../../../blocks/websocketcpp/include -I/Users/joshua.noble/code/cinder_0.8.4/blocks/websocketcpp/example/socketiOS/xcode/build/Debug-iphoneos/include -I../../../../../boost -I/Users/joshua.noble/code/cinder_0.8.4/blocks/websocketcpp/example/socketiOS/xcode/./build/socketiOS.build/Debug-iphoneos/socketiOS.build/DerivedSources/armv7 -I/Users/joshua.noble/code/cinder_0.8.4/blocks/websocketcpp/example/socketiOS/xcode/./build/socketiOS.build/Debug-iphoneos/socketiOS.build/DerivedSources -F/Users/joshua.noble/code/cinder_0.8.4/blocks/websocketcpp/example/socketiOS/xcode/build/Debug-iphoneos -include /var/folders/kg/66v_t1ps7ms7hn4llkd46n2m9wrvdb/C/com.apple.Xcode.332164523/SharedPrecompiledHeaders/socketiOS_Prefix-cvxygisfmsrrfhgbwaaflslkkadg/socketiOS_Prefix.pch -MMD -MT dependencies -MF /Users/joshua.noble/code/cinder_0.8.4/blocks/websocketcpp/example/socketiOS/xcode/./build/socketiOS.build/Debug-iphoneos/socketiOS.build/Objects-normal/armv7/socketiOSApp.d --serialize-diagnostics /Users/joshua.noble/code/cinder_0.8.4/blocks/websocketcpp/example/socketiOS/xcode/./build/socketiOS.build/Debug-iphoneos/socketiOS.build/Objects-normal/armv7/socketiOSApp.dia -c /Users/joshua.noble/code/cinder_0.8.4/blocks/websocketcpp/example/socketiOS/xcode/../src/socketiOSApp.cpp -o /Users/joshua.noble/code/cinder_0.8.4/blocks/websocketcpp/example/socketiOS/xcode/./build/socketiOS.build/Debug-iphoneos/socketiOS.build/Objects-normal/armv7/socketiOSApp.o36"8B0B11AA-A252-4275-AE76-090263C49858-
+
+CCopyPNGFile /Users/joshua.noble/code/cinder_0.8.4/blocks/websocketcpp/example/socketiOS/xcode/./build/Debug-iphoneos/socketiOS.app/Icon.png Icon.png
+s377669687.060522
+e377669687.416609
+r1
+xCopyPNGFile
+x/Users/joshua.noble/code/cinder_0.8.4/blocks/websocketcpp/example/socketiOS/xcode/./build/Debug-iphoneos/socketiOS.app/Icon.png
+xIcon.png
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection66"CopyPNGFile ./build/Debug-iphoneos/socketiOS.app/Icon.png Icon.png849c0f37c882b641^9ca76a37c882b641^---0#0#0#-19%DVTDocumentLocation2@106"file://localhost/Users/joshua.noble/code/cinder_0.8.4/blocks/websocketcpp/example/socketiOS/xcode/Icon.png0000000000000000^677"CopyPNGFile ./build/Debug-iphoneos/socketiOS.app/Icon.png Icon.png    cd /Users/joshua.noble/code/cinder_0.8.4/blocks/websocketcpp/example/socketiOS/xcode    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/copypng -compress "" /Users/joshua.noble/code/cinder_0.8.4/blocks/websocketcpp/example/socketiOS/xcode/Icon.png /Users/joshua.noble/code/cinder_0.8.4/blocks/websocketcpp/example/socketiOS/xcode/./build/Debug-iphoneos/socketiOS.app/Icon.png36"867C76D8-21CE-4D42-9D80-D273929B097D-
+
+CCpResource ../../../include/ssl/client.pem ./build/Debug-iphoneos/socketiOS.app/client.pem
+s377669687.060553
+e377669687.133927
+r1
+xCpResource
+x../../../include/ssl/client.pem
+x./build/Debug-iphoneos/socketiOS.app/client.pem
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection52"Copy ./build/Debug-iphoneos/socketiOS.app/client.pem249b0f37c882b641^44de2237c882b641^---0#0#0#-19%DVTDocumentLocation2@145"file://localhost/Users/joshua.noble/code/cinder_0.8.4/blocks/websocketcpp/example/socketiOS/xcode/./build/Debug-iphoneos/socketiOS.app/client.pem000000000080d041^713"CpResource ../../../include/ssl/client.pem ./build/Debug-iphoneos/socketiOS.app/client.pem    cd /Users/joshua.noble/code/cinder_0.8.4/blocks/websocketcpp/example/socketiOS/xcode    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/joshua.noble/code/cinder_0.8.4/blocks/websocketcpp/example/socketiOS/xcode/../../../include/ssl/client.pem /Users/joshua.noble/code/cinder_0.8.4/blocks/websocketcpp/example/socketiOS/xcode/./build/Debug-iphoneos/socketiOS.app36"0EC372AA-51BE-4E37-A8BB-DF8126869347-
+
+CCpResource ../../../include/ssl/dh512.pem ./build/Debug-iphoneos/socketiOS.app/dh512.pem
+s377669687.060581
+e377669687.136209
+r1
+xCpResource
+x../../../include/ssl/dh512.pem
+x./build/Debug-iphoneos/socketiOS.app/dh512.pem
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection51"Copy ./build/Debug-iphoneos/socketiOS.app/dh512.pem92950f37c882b641^43e62237c882b641^---0#0#0#-19%DVTDocumentLocation2@144"file://localhost/Users/joshua.noble/code/cinder_0.8.4/blocks/websocketcpp/example/socketiOS/xcode/./build/Debug-iphoneos/socketiOS.app/dh512.pem000000000080d041^710"CpResource ../../../include/ssl/dh512.pem ./build/Debug-iphoneos/socketiOS.app/dh512.pem    cd /Users/joshua.noble/code/cinder_0.8.4/blocks/websocketcpp/example/socketiOS/xcode    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/joshua.noble/code/cinder_0.8.4/blocks/websocketcpp/example/socketiOS/xcode/../../../include/ssl/dh512.pem /Users/joshua.noble/code/cinder_0.8.4/blocks/websocketcpp/example/socketiOS/xcode/./build/Debug-iphoneos/socketiOS.app36"1A083532-F8E1-4A64-B815-25E527CCA671-
+
+CCpResource ../../../include/ssl/server.cer ./build/Debug-iphoneos/socketiOS.app/server.cer
+s377669687.060587
+e377669687.133936
+r1
+xCpResource
+x../../../include/ssl/server.cer
+x./build/Debug-iphoneos/socketiOS.app/server.cer
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection52"Copy ./build/Debug-iphoneos/socketiOS.app/server.cer209c0f37c882b641^3fe32237c882b641^---0#0#0#-19%DVTDocumentLocation2@145"file://localhost/Users/joshua.noble/code/cinder_0.8.4/blocks/websocketcpp/example/socketiOS/xcode/./build/Debug-iphoneos/socketiOS.app/server.cer000000000080d041^713"CpResource ../../../include/ssl/server.cer ./build/Debug-iphoneos/socketiOS.app/server.cer    cd /Users/joshua.noble/code/cinder_0.8.4/blocks/websocketcpp/example/socketiOS/xcode    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/joshua.noble/code/cinder_0.8.4/blocks/websocketcpp/example/socketiOS/xcode/../../../include/ssl/server.cer /Users/joshua.noble/code/cinder_0.8.4/blocks/websocketcpp/example/socketiOS/xcode/./build/Debug-iphoneos/socketiOS.app36"619234DE-ADCE-4940-B62A-D0EA43B31EC4-
+
+CCpResource ../../../include/ssl/server.pem ./build/Debug-iphoneos/socketiOS.app/server.pem
+s377669687.061092
+e377669687.136199
+r1
+xCpResource
+x../../../include/ssl/server.pem
+x./build/Debug-iphoneos/socketiOS.app/server.pem
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection52"Copy ./build/Debug-iphoneos/socketiOS.app/server.pem68b20f37c882b641^e1ec2237c882b641^---0#0#0#-19%DVTDocumentLocation2@145"file://localhost/Users/joshua.noble/code/cinder_0.8.4/blocks/websocketcpp/example/socketiOS/xcode/./build/Debug-iphoneos/socketiOS.app/server.pem000000000080d041^713"CpResource ../../../include/ssl/server.pem ./build/Debug-iphoneos/socketiOS.app/server.pem    cd /Users/joshua.noble/code/cinder_0.8.4/blocks/websocketcpp/example/socketiOS/xcode    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/joshua.noble/code/cinder_0.8.4/blocks/websocketcpp/example/socketiOS/xcode/../../../include/ssl/server.pem /Users/joshua.noble/code/cinder_0.8.4/blocks/websocketcpp/example/socketiOS/xcode/./build/Debug-iphoneos/socketiOS.app36"2D58B183-8096-49E0-BB2C-2FBB4F660807-
+
+CCpResource ../assets ./build/Debug-iphoneos/socketiOS.app/assets
+s377669687.060546
+e377669687.064017
+r1
+xCpResource
+x../assets
+x./build/Debug-iphoneos/socketiOS.app/assets
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection48"Copy ./build/Debug-iphoneos/socketiOS.app/assets85980f37c882b641^aa641037c882b641^---0#0#0#-19%DVTDocumentLocation2@141"file://localhost/Users/joshua.noble/code/cinder_0.8.4/blocks/websocketcpp/example/socketiOS/xcode/./build/Debug-iphoneos/socketiOS.app/assets000000000080d041^665"CpResource ../assets ./build/Debug-iphoneos/socketiOS.app/assets    cd /Users/joshua.noble/code/cinder_0.8.4/blocks/websocketcpp/example/socketiOS/xcode    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/joshua.noble/code/cinder_0.8.4/blocks/websocketcpp/example/socketiOS/xcode/../assets /Users/joshua.noble/code/cinder_0.8.4/blocks/websocketcpp/example/socketiOS/xcode/./build/Debug-iphoneos/socketiOS.app36"FB05BEC6-3EFA-4B8C-9809-EF8231684BEA-
+
+CCpResource /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.0.sdk/ResourceRules.plist ./build/Debug-iphoneos/socketiOS.app/ResourceRules.plist
+s377669687.021273
+e377669687.051336
+r1
+xCpResource
+x/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.0.sdk/ResourceRules.plist
+x./build/Debug-iphoneos/socketiOS.app/ResourceRules.plist
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection61"Copy ./build/Debug-iphoneos/socketiOS.app/ResourceRules.plist6f840537c882b641^ee250d37c882b641^---0#0#0#-19%DVTDocumentLocation2@154"file://localhost/Users/joshua.noble/code/cinder_0.8.4/blocks/websocketcpp/example/socketiOS/xcode/./build/Debug-iphoneos/socketiOS.app/ResourceRules.plist000000000080d041^820"CpResource /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.0.sdk/ResourceRules.plist ./build/Debug-iphoneos/socketiOS.app/ResourceRules.plist    cd /Users/joshua.noble/code/cinder_0.8.4/blocks/websocketcpp/example/socketiOS/xcode    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.0.sdk/ResourceRules.plist /Users/joshua.noble/code/cinder_0.8.4/blocks/websocketcpp/example/socketiOS/xcode/./build/Debug-iphoneos/socketiOS.app36"249419F1-F9FD-4E4B-B934-1CFF821DACAC-
+
+CGenerateDSYMFile /Users/joshua.noble/code/cinder_0.8.4/blocks/websocketcpp/example/socketiOS/xcode/./build/Debug-iphoneos/socketiOS.app.dSYM /Users/joshua.noble/code/cinder_0.8.4/blocks/websocketcpp/example/socketiOS/xcode/./build/Debug-iphoneos/socketiOS.app/socketiOS
+r0
+
+CLd /Users/joshua.noble/code/cinder_0.8.4/blocks/websocketcpp/example/socketiOS/xcode/./build/Debug-iphoneos/socketiOS.app/socketiOS normal armv7
+s377669695.690971
+e377669696.889978
+r0
+xLd
+x/Users/joshua.noble/code/cinder_0.8.4/blocks/websocketcpp/example/socketiOS/xcode/./build/Debug-iphoneos/socketiOS.app/socketiOS
+xnormal
+xarmv7
+oUndefined symbols for architecture armv7:
+o  "boost::re_detail::perl_matcher<char const*, std::allocator<boost::sub_match<char const*> >, boost::regex_traits<char, boost::cpp_regex_traits<char> > >::match()", referenced from:
+o      bool boost::regex_match<char const*, std::allocator<boost::sub_match<char const*> >, char, boost::regex_traits<char, boost::cpp_regex_traits<char> > >(char const*, char const*, boost::match_results<char const*, std::allocator<boost::sub_match<char const*> > >&, boost::basic_regex<char, boost::regex_traits<char, boost::cpp_regex_traits<char> > > const&, boost::regex_constants::_match_flags) in libwebsocketpp.a(uri.o)
+o  "boost::re_detail::perl_matcher<char const*, std::allocator<boost::sub_match<char const*> >, boost::regex_traits<char, boost::cpp_regex_traits<char> > >::construct_init(boost::basic_regex<char, boost::regex_traits<char, boost::cpp_regex_traits<char> > > const&, boost::regex_constants::_match_flags)", referenced from:
+o      boost::re_detail::perl_matcher<char const*, std::allocator<boost::sub_match<char const*> >, boost::regex_traits<char, boost::cpp_regex_traits<char> > >::perl_matcher(char const*, char const*, boost::match_results<char const*, std::allocator<boost::sub_match<char const*> > >&, boost::basic_regex<char, boost::regex_traits<char, boost::cpp_regex_traits<char> > > const&, boost::regex_constants::_match_flags, char const*) in libwebsocketpp.a(uri.o)
+o  "boost::basic_regex<char, boost::regex_traits<char, boost::cpp_regex_traits<char> > >::do_assign(char const*, char const*, unsigned int)", referenced from:
+o      boost::basic_regex<char, boost::regex_traits<char, boost::cpp_regex_traits<char> > >::assign(char const*, char const*, unsigned int) in libwebsocketpp.a(uri.o)
+old: symbol(s) not found for architecture armv7
+oclang: error: linker command failed with exit code 1 (use -v to see invocation)
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection133"Link /Users/joshua.noble/code/cinder_0.8.4/blocks/websocketcpp/example/socketiOS/xcode/./build/Debug-iphoneos/socketiOS.app/socketiOS0dfcb03fc882b641^0bd3e340c882b641^-1877"Undefined symbols for architecture armv7:  "boost::re_detail::perl_matcher<char const*, std::allocator<boost::sub_match<char const*> >, boost::regex_traits<char, boost::cpp_regex_traits<char> > >::match()", referenced from:      bool boost::regex_match<char const*, std::allocator<boost::sub_match<char const*> >, char, boost::regex_traits<char, boost::cpp_regex_traits<char> > >(char const*, char const*, boost::match_results<char const*, std::allocator<boost::sub_match<char const*> > >&, boost::basic_regex<char, boost::regex_traits<char, boost::cpp_regex_traits<char> > > const&, boost::regex_constants::_match_flags) in libwebsocketpp.a(uri.o)  "boost::re_detail::perl_matcher<char const*, std::allocator<boost::sub_match<char const*> >, boost::regex_traits<char, boost::cpp_regex_traits<char> > >::construct_init(boost::basic_regex<char, boost::regex_traits<char, boost::cpp_regex_traits<char> > > const&, boost::regex_constants::_match_flags)", referenced from:      boost::re_detail::perl_matcher<char const*, std::allocator<boost::sub_match<char const*> >, boost::regex_traits<char, boost::cpp_regex_traits<char> > >::perl_matcher(char const*, char const*, boost::match_results<char const*, std::allocator<boost::sub_match<char const*> > >&, boost::basic_regex<char, boost::regex_traits<char, boost::cpp_regex_traits<char> > > const&, boost::regex_constants::_match_flags, char const*) in libwebsocketpp.a(uri.o)  "boost::basic_regex<char, boost::regex_traits<char, boost::cpp_regex_traits<char> > >::do_assign(char const*, char const*, unsigned int)", referenced from:      boost::basic_regex<char, boost::regex_traits<char, boost::cpp_regex_traits<char> > >::assign(char const*, char const*, unsigned int) in libwebsocketpp.a(uri.o)ld: symbol(s) not found for architecture armv7clang: error: linker command failed with exit code 1 (use -v to see invocation)8(21%IDEActivityLogMessage2@180""boost::re_detail::perl_matcher<char const*, std::allocator<boost::sub_match<char const*> >, boost::regex_traits<char, boost::cpp_regex_traits<char> > >::match()", referenced from:-377669696#42#183#-2#-23%DVTTextDocumentLocation3@-0000000000000000^18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#0#25"Apple Mach-O Linker Error--2@419"Bool boost::regex_match<char const*, std::allocator<boost::sub_match<char const*> >, char, boost::regex_traits<char, boost::cpp_regex_traits<char> > >(char const*, char const*, boost::match_results<char const*, std::allocator<boost::sub_match<char const*> > >&, boost::basic_regex<char, boost::regex_traits<char, boost::cpp_regex_traits<char> > > const&, boost::regex_constants::_match_flags) in libwebsocketpp.a(uri.o)-377669696#225#426#-0#-3@-0000000000000000^18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#0#26"Apple Mach-O Linker Notice--2@318""boost::re_detail::perl_matcher<char const*, std::allocator<boost::sub_match<char const*> >, boost::regex_traits<char, boost::cpp_regex_traits<char> > >::construct_init(boost::basic_regex<char, boost::regex_traits<char, boost::cpp_regex_traits<char> > > const&, boost::regex_constants::_match_flags)", referenced from:-377669696#651#321#-2#-3@-0000000000000000^18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#0#25"Apple Mach-O Linker Error--2@447"Boost::re_detail::perl_matcher<char const*, std::allocator<boost::sub_match<char const*> >, boost::regex_traits<char, boost::cpp_regex_traits<char> > >::perl_matcher(char const*, char const*, boost::match_results<char const*, std::allocator<boost::sub_match<char const*> > >&, boost::basic_regex<char, boost::regex_traits<char, boost::cpp_regex_traits<char> > > const&, boost::regex_constants::_match_flags, char const*) in libwebsocketpp.a(uri.o)-377669696#972#454#-0#-3@-0000000000000000^18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#0#26"Apple Mach-O Linker Notice--2@155""boost::basic_regex<char, boost::regex_traits<char, boost::cpp_regex_traits<char> > >::do_assign(char const*, char const*, unsigned int)", referenced from:-377669696#1426#158#-2#-3@-0000000000000000^18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#0#25"Apple Mach-O Linker Error--2@159"Boost::basic_regex<char, boost::regex_traits<char, boost::cpp_regex_traits<char> > >::assign(char const*, char const*, unsigned int) in libwebsocketpp.a(uri.o)-377669696#1584#166#-0#-3@-0000000000000000^18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#0#26"Apple Mach-O Linker Notice--2@42"Symbol(s) not found for architecture armv7-377669696#1750#47#-0#-3@-0000000000000000^18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#0#26"Apple Mach-O Linker Notice--2@65"Linker command failed with exit code 1 (use -v to see invocation)-377669696#1797#80#-2#-3@-0000000000000000^18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#0#25"Apple Mach-O Linker Error--0#0#0#--1628"Ld ./build/Debug-iphoneos/socketiOS.app/socketiOS normal armv7    cd /Users/joshua.noble/code/cinder_0.8.4/blocks/websocketcpp/example/socketiOS/xcode    setenv IPHONEOS_DEPLOYMENT_TARGET 3.2    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++ -arch armv7 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.0.sdk -L/Users/joshua.noble/code/cinder_0.8.4/blocks/websocketcpp/example/socketiOS/xcode/build/Debug-iphoneos -L/Users/joshua.noble/code/cinder_0.8.4/blocks/websocketcpp/example/socketiOS/xcode/../../../lib/iOS -F/Users/joshua.noble/code/cinder_0.8.4/blocks/websocketcpp/example/socketiOS/xcode/build/Debug-iphoneos -filelist /Users/joshua.noble/code/cinder_0.8.4/blocks/websocketcpp/example/socketiOS/xcode/./build/socketiOS.build/Debug-iphoneos/socketiOS.build/Objects-normal/armv7/socketiOS.LinkFileList -dead_strip ../../../../..//lib/libcinder-iphone_d.a ../../../../..//blocks/websocketcpp/lib/iOS/libwebsocketpp.a -miphoneos-version-min=3.2 -lz -framework CoreText -framework AudioToolbox -weak_framework AVFoundation -weak_framework CoreMedia -framework Foundation -framework UIKit -framework OpenGLES -framework QuartzCore -framework CoreGraphics -weak_framework CoreVideo -lwebsocketpp -o /Users/joshua.noble/code/cinder_0.8.4/blocks/websocketcpp/example/socketiOS/xcode/./build/Debug-iphoneos/socketiOS.app/socketiOS36"050BC8F9-1942-4F7F-A45A-B7D2FA1150DC-
+
+CProcessInfoPlistFile /Users/joshua.noble/code/cinder_0.8.4/blocks/websocketcpp/example/socketiOS/xcode/./build/Debug-iphoneos/socketiOS.app/Info.plist socketiOS-Info.plist
+s377669687.021760
+e377669687.051593
+r1
+xProcessInfoPlistFile
+x/Users/joshua.noble/code/cinder_0.8.4/blocks/websocketcpp/example/socketiOS/xcode/./build/Debug-iphoneos/socketiOS.app/Info.plist
+xsocketiOS-Info.plist
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection28"Process socketiOS-Info.plist94a20537c882b641^f8360d37c882b641^---0#0#0#-19%DVTDocumentLocation2@118"file://localhost/Users/joshua.noble/code/cinder_0.8.4/blocks/websocketcpp/example/socketiOS/xcode/socketiOS-Info.plist0000000000000000^902"ProcessInfoPlistFile ./build/Debug-iphoneos/socketiOS.app/Info.plist socketiOS-Info.plist    cd /Users/joshua.noble/code/cinder_0.8.4/blocks/websocketcpp/example/socketiOS/xcode    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-infoPlistUtility socketiOS-Info.plist -genpkginfo /Users/joshua.noble/code/cinder_0.8.4/blocks/websocketcpp/example/socketiOS/xcode/./build/Debug-iphoneos/socketiOS.app/PkgInfo -expandbuildsettings -format binary -platform iphoneos -resourcerulesfile /Users/joshua.noble/code/cinder_0.8.4/blocks/websocketcpp/example/socketiOS/xcode/./build/Debug-iphoneos/socketiOS.app/ResourceRules.plist -o /Users/joshua.noble/code/cinder_0.8.4/blocks/websocketcpp/example/socketiOS/xcode/./build/Debug-iphoneos/socketiOS.app/Info.plist36"D9BDBFC2-8612-4D49-A8B5-43847FC464FA-
+
+CProcessPCH++ /Users/joshua.noble/Library/Developer/Xcode/DerivedData/socketiOS-dwvswxapabyybzenkntczohcwgeh/Index/PrecompiledHeaders/socketiOS_Prefix-fthrcoojksqvtzghsffmwgxfzfya_ast/socketiOS_Prefix.pch.pth socketiOS_Prefix.pch normal armv7 c++ com.apple.compilers.llvm.clang.1_0.astbuilder
+r0
+
+CProcessPCH++ /var/folders/kg/66v_t1ps7ms7hn4llkd46n2m9wrvdb/C/com.apple.Xcode.332164523/SharedPrecompiledHeaders/socketiOS_Prefix-cvxygisfmsrrfhgbwaaflslkkadg/socketiOS_Prefix.pch.pth socketiOS_Prefix.pch normal armv7 c++ com.apple.compilers.llvm.clang.1_0.compiler
+s377669687.426272
+e377669687.442117
+r1
+xProcessPCH++
+x/var/folders/kg/66v_t1ps7ms7hn4llkd46n2m9wrvdb/C/com.apple.Xcode.332164523/SharedPrecompiledHeaders/socketiOS_Prefix-cvxygisfmsrrfhgbwaaflslkkadg/socketiOS_Prefix.pch.pth
+xsocketiOS_Prefix.pch
+xnormal
+xarmv7
+xc++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection31"Precompile socketiOS_Prefix.pch643d6d37c882b641^1b2f7137c882b641^---0#0#0#-19%DVTDocumentLocation2@118"file://localhost/Users/joshua.noble/code/cinder_0.8.4/blocks/websocketcpp/example/socketiOS/xcode/socketiOS_Prefix.pch0000000000000000^3445"ProcessPCH++ /var/folders/kg/66v_t1ps7ms7hn4llkd46n2m9wrvdb/C/com.apple.Xcode.332164523/SharedPrecompiledHeaders/socketiOS_Prefix-cvxygisfmsrrfhgbwaaflslkkadg/socketiOS_Prefix.pch.pth socketiOS_Prefix.pch normal armv7 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/joshua.noble/code/cinder_0.8.4/blocks/websocketcpp/example/socketiOS/xcode    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++-header -arch armv7 -fmessage-length=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -DDEBUG -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.0.sdk -Wdeprecated-declarations -Winvalid-offsetof -g -Wno-sign-conversion -miphoneos-version-min=3.2 -iquote /Users/joshua.noble/code/cinder_0.8.4/blocks/websocketcpp/example/socketiOS/xcode/./build/socketiOS.build/Debug-iphoneos/socketiOS.build/socketiOS-generated-files.hmap -I/Users/joshua.noble/code/cinder_0.8.4/blocks/websocketcpp/example/socketiOS/xcode/./build/socketiOS.build/Debug-iphoneos/socketiOS.build/socketiOS-own-target-headers.hmap -I/Users/joshua.noble/code/cinder_0.8.4/blocks/websocketcpp/example/socketiOS/xcode/./build/socketiOS.build/Debug-iphoneos/socketiOS.build/socketiOS-all-target-headers.hmap -iquote /Users/joshua.noble/code/cinder_0.8.4/blocks/websocketcpp/example/socketiOS/xcode/./build/socketiOS.build/Debug-iphoneos/socketiOS.build/socketiOS-project-headers.hmap -iquote../../../../../include -iquoteinclude -iquote../../../../../blocks/websocketcpp/include -I/Users/joshua.noble/code/cinder_0.8.4/blocks/websocketcpp/example/socketiOS/xcode/build/Debug-iphoneos/include -I../../../../../boost -I/Users/joshua.noble/code/cinder_0.8.4/blocks/websocketcpp/example/socketiOS/xcode/./build/socketiOS.build/Debug-iphoneos/socketiOS.build/DerivedSources/armv7 -I/Users/joshua.noble/code/cinder_0.8.4/blocks/websocketcpp/example/socketiOS/xcode/./build/socketiOS.build/Debug-iphoneos/socketiOS.build/DerivedSources -F/Users/joshua.noble/code/cinder_0.8.4/blocks/websocketcpp/example/socketiOS/xcode/build/Debug-iphoneos --serialize-diagnostics /var/folders/kg/66v_t1ps7ms7hn4llkd46n2m9wrvdb/C/com.apple.Xcode.332164523/SharedPrecompiledHeaders/socketiOS_Prefix-cvxygisfmsrrfhgbwaaflslkkadg/socketiOS_Prefix.pch.dia -c /Users/joshua.noble/code/cinder_0.8.4/blocks/websocketcpp/example/socketiOS/xcode/socketiOS_Prefix.pch -o /var/folders/kg/66v_t1ps7ms7hn4llkd46n2m9wrvdb/C/com.apple.Xcode.332164523/SharedPrecompiledHeaders/socketiOS_Prefix-cvxygisfmsrrfhgbwaaflslkkadg/socketiOS_Prefix.pch.pth -MMD -MT dependencies -MF /var/folders/kg/66v_t1ps7ms7hn4llkd46n2m9wrvdb/C/com.apple.Xcode.332164523/SharedPrecompiledHeaders/socketiOS_Prefix-cvxygisfmsrrfhgbwaaflslkkadg/socketiOS_Prefix.pch.d36"3268CE50-755D-455B-94CA-7B0003F2F815-
+
+CProcessProductPackaging "/Users/joshua.noble/Library/MobileDevice/Provisioning Profiles/40D917F2-C1BB-43B2-9694-D16D25DC1D2B.mobileprovision" /Users/joshua.noble/code/cinder_0.8.4/blocks/websocketcpp/example/socketiOS/xcode/./build/Debug-iphoneos/socketiOS.app/embedded.mobileprovision
+r0
+
+CProcessProductPackaging /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.0.sdk/Entitlements.plist /Users/joshua.noble/code/cinder_0.8.4/blocks/websocketcpp/example/socketiOS/xcode/./build/socketiOS.build/Debug-iphoneos/socketiOS.build/socketiOS.xcent
+r0
+
+CTouch /Users/joshua.noble/code/cinder_0.8.4/blocks/websocketcpp/example/socketiOS/xcode/./build/Debug-iphoneos/socketiOS.app
+r0
+
